@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
+import './login.css'
+import Nav from 'react-bootstrap/Nav';
 
 export default class Login extends Component {
   render() {
+
     return (
-      <form>
+      <div className='auth-wrapper'>
+        <div className='auth-inner'>
+        <form>
         <h3>Log in</h3>
 
         <div className="mb-3">
@@ -38,14 +43,16 @@ export default class Login extends Component {
         </div>
 
         <div className="d-grid">
-          <button type="submit" className="btn btn-primary">
-            Let me in
+          <button type="submit" className="btn btn-outline-primary" onClick={this.props.handler}>
+          <Nav.Link href="/">Let me in</Nav.Link>
           </button>
         </div>
         <p className="forgot-password text-right">
           No account? <a href="/sign-up">Sign up</a>
         </p>
       </form>
+        </div>
+      </div>
     )
   }
 }
