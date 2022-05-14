@@ -11,7 +11,7 @@ export default function ProfileCard({
     <Card style={{ width: '36rem'}}>
         <Card.Header className="text-muted">Welcome back, book lover!</Card.Header>
         <Card.Body>
-            <Card.Title>ReadingCat's Profile</Card.Title>
+            <Card.Title>AlexandraCheng's Profile</Card.Title>
             <Card.Text>Email: yscenery.chng@gmail.com</Card.Text>
             <Card.Text>Phone number: 9292320812</Card.Text>
             <Card.Text>Gender: Female</Card.Text>

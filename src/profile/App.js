@@ -10,7 +10,6 @@ function App() {
         
         <div className='profile'>
             <UserProfile />
-            <ListsCards />
         </div>
                   
     );

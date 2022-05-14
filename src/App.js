@@ -26,7 +26,7 @@ const App = () => {
             <Container>
               <Navbar.Brand>Book Hunters</Navbar.Brand>
               <Nav className="me-auto">
-                <Nav.Link href="/">Get recommendations</Nav.Link>
+                <Nav.Link href="/main">Get recommendations</Nav.Link>
                 <Nav.Link href="/profile">My profile</Nav.Link>
                 <Nav.Link href="/" onClick={() => hasLoggedIn()}>Logout</Nav.Link>
               </Nav>
